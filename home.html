@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMDB Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/dd0be2a09c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-heading"><a href="./home.html">IMDB Clone</a></div>
+      <div class="nav-items">
+        <button class="nav-item"><a href="./home.html">Home</a></button>
+        <button class="nav-item">
+          <a href="./favorites.html">Favorites</a>
+        </button>
+      </div>
+    </nav>
+    <main>
+      <div class="search-container">
+        <div class="search-box">
+            <h2>Search Movies...</h2>
+          <input type="text" id="movie-search" placeholder="Search movies..."  />
+        </div>
+        <div class="suggestions">
+
+          <!-- Suggestions will appear here -->
+          <ul class="suggestions-ul">
+            <!-- List of movies will show as suggestion with favorite icon.. -->
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
