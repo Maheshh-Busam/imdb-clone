@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Demo Videso](#Demo)
 - [Features](#features)
 - [Design](#design)
 - [Installation](#installation)
@@ -12,6 +13,10 @@
 
 ## Introduction
 The IMDB clone is a web application, user can search movies and know the details of the movies and can add the mmovies to favorites.
+
+## Demo Video
+
+[Video](<../../../Skills Test Project Recordings/IMDB-Clone Project.mkv>)
 
 ## Features
 - User can search the movies by using search bar.
